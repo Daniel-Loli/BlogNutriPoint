@@ -1,0 +1,61 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    text-align: center;
+}
+.span-color{
+    color: red;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    background-color: papayawhip;
+    padding: 10px;
+    border-radius: 18px;
+}
+.navbar-principal{
+    display:flex;
+    justify-content: space-around;
+    font-size: var(--md);
+    background-color: var(--hospital-green);
+}
+.presentacion{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.presentacion p{
+    font-size: var(--sm);
+    width: 50%;
+ 
+    text-align: center;
+}
+.main-container-estudios{
+    margin-top:4rem;
+    display:flex;
+    justify-content: space-evenly;
+}
