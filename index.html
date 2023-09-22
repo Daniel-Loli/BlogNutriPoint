@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./Css/Styles.css">
     <title>NutriPoint</title>
 </head>
 <body>
 
-    <header>
-        <h1 class="tittle">
-            Nutri <span class="span-color">Point</span>
-        </h1>
+    <header class="cabecera">
+        <div class="logoNombre">
+            <img src="./Logos/1.jpeg" alt="logo" class="logo">
+            <h1 class="tittle">
+                Nutri <span class="span-color">Point</span>
+            </h1>
+        </div>
+
         <nav class="navbar-principal">
             <ul> 
-                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
             </ul>
             <ul>
                 <li><a href="./Sections/Clase1.html">Hablemos</a></li>
@@ -28,40 +33,55 @@
             </ul>
             <ul>
                 <li><a href="./Sections/Clase4.html">Contacto</a></li>
-            </ul>
-            <ul>
-                <li><a href="./Sections/Clase1.html">asdasd</a></li>
-            </ul>
+            </ul>   
         </nav>
 
 
     </header>
 
     <section class="presentacion">
-        <h2>Hola soy Mariangela, Bienvenido a mi página</h2>
-        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat corporis animi non hic quos reiciendis sed, quasi temporibus neque molestiae, ducimus nemo porro eaque facilis perferendis sapiente excepturi voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia mollitia magnam accusamus vitae commodi numquam quisquam provident excepturi non, reprehenderit quibusdam ipsa laudantium fuga eaque quos deserunt eos cum qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit doloribus, maxime distinctio accusamus similique tempore omnis quaerat quas nisi? Porro ad voluptate aperiam culpa obcaecati magni reiciendis sit illo!</p>
-    </section>
 
-    <main class="main-container">
-        <h1>Información académica</h1>
-        <div class="main-container-estudios">
-            <div>
-                <h3>Estudios primarios</h3>
-            </div>
-            <div>
-                <h3>Estudios secundarios</h3>
-            </div>
-    
-            <div>
-                <h3>Estudios superiores</h3>
-            </div>
+        <h2>Hola soy Mariangela, Bienvenido a mi página</h2>
+        <div class="presentacion-foto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat corporis animi non hic quos reiciendis sed, quasi temporibus neque molestiae, ducimus nemo porro eaque facilis perferendis sapiente excepturi voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia mollitia magnam accusamus vitae commodi numquam quisquam provident excepturi non, reprehenderit quibusdam ipsa laudantium fuga eaque quos deserunt eos cum qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugit doloribus, maxime distinctio accusamus similique tempore omnis quaerat quas nisi? Porro ad voluptate aperiam culpa obcaecati magni reiciendis sit illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, praesentium! Aperiam architecto ducimus corrupti ad minus cum dolorum temporibus illo omnis. Numquam laudantium totam suscipit voluptatum ipsa harum quasi recusandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim dolorem omnis, nam atque magni ut, alias consequatur earum facere doloribus iure accusantium ex harum sapiente veritatis molestiae, praesentium dignissimos quis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nulla soluta. Est perferendis voluptatem itaque dolores error excepturi? Iure ea laboriosam pariatur eum, dolorem quisquam accusamus velit dolor iste deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, eum. Natus, nostrum laborum. Amet nisi minima, soluta adipisci debitis facere ut et, hic ex cumque temporibus deserunt nobis laboriosam recusandae? lorem</p>
+            
+            <img src="./Logos/fotomaria.jpeg" class="fotoprincipal" alt="mariaperfil">
         </div>
 
-    </main>
-    <footer>
-        <p>Desarrollado por <a href="https://github.com/dani-deacoder">Nilton Daniel Loli Collantes</a></p>
+    </section>
+
+    <section class="academica-container">
+        <h1>Sobre mi</h1>
+
+    </section>
+
+    <section class="contenido">
+            <div class="sobre-mi-container">
+                <div class="academica-container-estudios">
+                    <h2>Formación académica</h2>
+                    <p class="parrafito">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque enim, aliquid voluptatem porro velit soluta ducimus a iure quam laudantium dolores tempore eaque ea, omnis ratione laboriosam. Amet, quas inventore.
+                    </p>
+                    <img src="https://images.pexels.com/photos/8844379/pexels-photo-8844379.jpeg?auto=compress&cs=tinysrgb&w=600" class="imageInicio" alt="perfil">
+                </div>
+        
+                <div class="academica-container-estudios">
+                    <h2>Experiencias en el campo</h2>
+                    <p class="parrafito">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis repudiandae ut, fugiat exercitationem maiores cum dicta dolore odit dolorum, ullam perferendis eaque nobis suscipit officia culpa minus! Quae, quidem?</p>
+                    <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=600" class="imageInicio" alt="experiencia">
+                </div>
+        
+                <div class="academica-container-estudios">
+                    <h2>Intereses profesionales</h2>
+                    <p class="parrafito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime, voluptatum quis doloribus vero minima odio accusamus commodi autem voluptas tempore inventore nam explicabo facilis, recusandae possimus sapiente eos velit.</p>
+                    <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=600" class="imageInicio" alt="nutricionista">
+                </div>
+            </div>
+    </section>
+    <footer class="creditos">
+        <p >Desarrollado por <a href="https://github.com/dani-deacoder">Nilton Daniel Loli Collantes</a></p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
 
